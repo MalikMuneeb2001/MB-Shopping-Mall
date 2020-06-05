@@ -1,0 +1,401 @@
+body{
+    background-color:  #f7f7f7;
+}
+nav{
+    background-color:   yellowgreen;
+    box-shadow: 2px 2px 3px grey;
+}
+nav a img{
+    margin-left: 20px;
+}
+nav div ul li{
+    margin-left: 20px;
+}
+nav div ul li a:hover{
+    color: white !important;
+    border-radius: 10px;
+    background-color: green;
+}
+nav div ul li div a:hover{
+    background-color: green !important;
+}
+nav div ul li div{
+    margin-top: 15px !important;
+}
+
+/* NAVBAR END */
+
+.card-image{
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+@media screen and (max-width:1200px){
+    .card-image img{
+        width: 90%;
+        height: 60px;
+    }
+}
+
+/* Card image end */
+.main-div-of-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fa-motorcycle,.fa-headphones,.fa-pencil-square-o{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 300px;
+    background-color: yellowgreen;
+    box-shadow: 5px 7px 6px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}
+.card1:hover,.card2:hover,.card3:hover{
+    transform: scale(1.3);
+}
+@media screen and (max-width:1200px){
+    .card1,.card2,.card3{
+        width: 90%;
+    }
+    .card1:hover,.card2:hover,.card3:hover{
+        transform: none;
+    }
+}
+
+/* Three Cards End */
+.flash-sale{
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.shop-more-button{
+    float: right !important;
+}
+.row{
+    justify-content: space-around;
+    text-align: center;
+}
+.cards{
+    width: 20%;
+    background-color: white;
+}
+.cards:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px 4px gray;
+}
+.card-images{
+    margin-top: 12px !important;
+}
+ins,del{
+    margin-left: 10px;
+}
+ins{
+    text-decoration: none;
+}
+div button{
+    margin-bottom: 10px;
+}
+div button:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:1200px){
+    .background-color-sky-blue{
+        background-color: skyblue;
+    }
+    .flash-sale{
+        color: white;
+        font-size: 20px;
+    }
+    .shop-more-button{
+        background-color:whitesmoke;
+        color: black;
+    }
+    .eid-gif{
+        display: none;
+    }
+    .cards{
+        width: 48%;
+        margin-top: 20px;
+        transform: none;
+        background-color: white;
+    }
+    .cards:hover{
+        transform: none;
+    }
+    .rating{
+        display: none;
+    }
+}
+ /* SALE END */
+ .slider-images{
+    margin-top: 30px;
+}
+@media screen and (max-width:1200px){
+    .slider-images{
+        display: none;
+    }
+}
+
+/* Featured category End  */
+
+  .new-collection{
+      padding-top: 10px;
+      margin-top: 40px;
+  }
+.visit-more-button{
+    margin-top: 25px;
+}
+.collection-images{
+    margin-top: 10px;
+}
+ @media screen and (max-width:1200px){
+     .collection{
+         width: 100%;
+     }
+     .background-color-green{
+         background-color:	palegreen;
+     }
+ }
+
+ /* COLLECTION END */
+
+ .mall-image{
+     margin-top: 30px;
+ }
+ @media screen and (max-width:1200px){
+     .mall-image{
+         width: 100%;
+         height: 300px;
+     }
+ }
+
+ /* Mall Image End */
+
+ .about-us{
+     text-align: center;
+     margin-top: 30px !important;
+     background-color: white;
+ }
+ .fa-eye,.fa-font-awesome,.fa-lastfm,.fa-pencil{
+     font-size: 32px;
+     color: white;
+     padding: 30px;
+     background-color: yellowgreen;
+     border-radius: 60px;
+     margin-bottom: 10px;
+ }
+ @media screen and (max-width:1200px){
+        .vision,.mission,.philosophy,.value{
+            width: 100%;
+        }
+ }
+
+ /* About End */
+
+ .gallery{
+     text-align: center;
+     text-transform: uppercase;
+     margin-top: 40px;
+     font-family: normal;
+ }
+ .blue{
+     color: royalblue;
+ }
+ .green{
+     color: green;
+ }
+ .gallery-images{
+     justify-content: center;
+ }
+ .gallery-images img{
+     margin-left: 3px;
+ }
+ .gallery-images img:hover{
+     transform: scale(1.1);
+ }
+ @media screen and (max-width:1200px){
+    .gallery-images img:hover{
+        transform: none;
+    }
+    .gallery-images img{
+        width: 80%
+    }
+
+}
+
+/* IMAGE GALLERY END */
+
+.grey{
+    background-color: #eee;
+    height: 370px;
+}
+.potential{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.fa-flag,.fa-globe,.fa-trophy,.fa-tags,.fa-male,.fa-user-plus,.fa-yelp,.fa-phone{
+    font-size: 42px;
+    margin-right: 10px;
+}
+.our-potential{
+   
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.numbers{
+    font-weight: bold;
+    font-size: 35px;
+}
+@media screen and (max-width:1200px){
+    .our-potential{
+        width: 80%;
+    }
+    .grey{
+        height: 1100px;
+    }
+}
+
+/* OUR POTENTIAL END */
+
+.BRANDS-WE-CARRY{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* brand-slider end */
+.contact-us-background-color{
+    background-color: #eee;
+}
+.CONTACT-US{
+        text-align: center;
+        margin-top: 70px;
+        padding-top: 20px;
+}
+.contact{
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+.radio-buttons{
+    margin-top: 30px;
+}
+.radio-buttons input{
+    margin-left: 55px;
+}
+.radio-button{
+    margin-left: 10px !important;
+}
+.submit-button{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-warning{
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+@media screen and (max-width:1200px){
+  .contact input{
+      width: 40%;
+  }
+}
+
+/* .CONTACT-US END */
+
+.background-color-black{
+    background-color: #25272e;
+    margin-top: 50px;
+    height: 400px;
+}
+.big-MB-logo{
+    margin-top: 60px;
+}
+.mb-mall{
+    color: white;
+    margin-top: 80px;
+}
+.history{
+    color: grey;
+    font-size: 13px;
+}
+.site-map li{
+    list-style: none;
+    margin-top: 5px;
+    font-size: 13px;
+    margin-right: 40px;
+}
+div ul li a{
+    color: grey;
+}
+.site-map-heading{
+    color: white;
+    margin-top: 80px;
+}
+.touch{
+    color: white;
+    margin-top: 80px;
+}
+.location{
+    color: grey;
+}
+.fa-map-marker,.fa-envelope,.fa-phone-square{
+    color: yellowgreen;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.email,.contact-number{
+    color: grey;
+}
+.service-cards{
+    text-align: center;
+}
+@media screen and (max-width:1200px){
+    .big-bag-logo{
+        width: 300px;
+    }
+    .mb-mall,.history{
+        width: 350px;
+    }
+    .history{
+        font-size: 16px;
+    }
+    .site-map li{
+        font-size: 17px;
+    }
+    .background-color-black{
+        height: 1470px;
+    }
+    .bank-card{
+        width: 40%;
+    }
+  }
+
+  /* Address Email Box End */
+
+  .copyright{
+      background-color: yellowgreen;
+      height: 60px;
+
+  }
+  .fa-copyright{
+      font-size: 15px;
+  }
+  .copyright-content{
+      padding-top: 10px;
+      font-size: 13px;
+  }

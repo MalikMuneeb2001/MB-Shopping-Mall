@@ -1,0 +1,22 @@
+.main-slider{
+    margin-top: 40px;
+}
+@media screen and (max-width:1200px){
+    .background-color-light-pink{
+        background-color: lightpink;
+    }
+    .background-color-light-green{
+        background-color: lightgreen;
+    }
+    .background-color-light-blue{
+        background-color: lightblue;
+    }
+    .background-color-red{
+        background-color: lightcoral;
+    }
+}
+
+.shahswar,.hayat,.armani,.gucci{
+    text-align: center;
+    text-shadow: 3px 5px 3px grey;
+}

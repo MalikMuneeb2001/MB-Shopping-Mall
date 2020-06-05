@@ -1,0 +1,38 @@
+.main-image{
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:1200px){
+    .main-fashion-image{
+        height: 70%;
+    }
+}
+
+/* Main Image End */
+
+.three{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+@media screen and (max-width:1200px){
+    .background-color-light-pink{
+        background-color: lightpink;
+    }
+}
+
+/* Shoes End */
+
+@media screen and (max-width:1200px){
+    .background-color-light-green{
+        background-color: lightgreen;
+    }
+}
+
+/* Watches End */
+
+@media screen and (max-width:1200px){
+    .background-color-light-blue{
+        background-color: lightskyblue;
+    }
+}

@@ -1,0 +1,44 @@
+.sale-image{
+    text-align: center;
+    margin-top: 30px;
+}
+.sale{
+    margin-top: 40px;
+}
+.image-sale{
+    width: 90%;
+}
+@media screen and (max-width:1200px){
+    .image-sale{
+        height: 200px;
+    }
+}
+
+/* Sale Image End */
+
+.shopping-card{
+    text-align: center;
+    margin-top: 20px;
+}
+.discount-card{
+    width: 100%;
+}
+
+/* .discount-card-end */
+
+@media screen and (max-width:1200px){
+    .background-color-pink{
+        background-color:	pink;
+    }
+
+}
+
+/* Women Collection End */
+
+@media screen and (max-width:1200px){
+    .background-color-lightblue{
+        background-color:	lightblue;
+    }
+}
+
+

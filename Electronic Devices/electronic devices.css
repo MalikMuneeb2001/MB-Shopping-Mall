@@ -1,0 +1,21 @@
+.main-image{
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:1200px){
+    .main-fashion-image{
+        height: 70%;
+    }
+    .background-color-light-pink{
+        background-color: lightpink;
+    }
+    .background-color-light-green{
+        background-color: lightgreen;
+    }
+    .background-color-light-blue{
+        background-color: lightblue;
+    }
+    .background-color-red{
+        background-color: lightcoral;
+    }
+}

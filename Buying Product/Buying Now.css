@@ -1,0 +1,59 @@
+
+.PRODUCT-FORM-background-color{
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+.Product-form{
+        text-align: center;
+        padding-top: 20px;
+}
+.form{
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+.submit-button{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-warning{
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+.delivery-time{
+    font-size: 17px;
+    color: green;
+    font-weight: bold;
+}
+.delivery-text{
+    margin-top: 20px;
+}
+@media screen and (max-width:1200px){
+  .form input{
+      width: 40%;
+  }
+}
+
+/* form end */
+
+.lucky-draw-gif{
+    text-align: center;
+    margin-top: 60px;
+}
+.dropdown-gif{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+@media screen and (max-width:1200px){
+    .lucky-draw-image{
+        width: 80%;
+    }
+    .gif-heading{
+        font-size: 20px;
+    }
+  }
+
+  /* Luck Draw  End */
+
